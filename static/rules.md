@@ -1,10 +1,37 @@
-#### Règles
+### Règles
+
+#### Principe
 
 Le hackathon comporte deux épreuves :
 
-    -   app
-    -   enigme
+1. La réalsation d'une application mobile permettant de communiquer avec un chatbot
+2. Résoudre l'énigme pour trouver le mot de passe
 
+Le but final est de renseigner le mot de passe au chatbot, via l'application mobile !
+
+#### Application mobile
+
+Stack technique : 
+
+. Tous les frameworks mobiles sont autorisés (Angular, React, Vue.js...) 
+
+. Le protocole de communication du chatbot est MQTT 
+
+. L'application devra fonctionner sur un appareil physique ou virtuel  
+
+. Vous avez la possibilité de déployer l'application 
+
+. Le versionnement de code est très fortement encouragé 
+
+. ...
+
+. Soyez créatifs ! :)
+
+
+#### Énigme
+
+Tous les indices sont présents en bas de page ! 
+Si vous avez des questions, la réponse est certaienement sur Google ;) 
 
 
 #### Pondérations
