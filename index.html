@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hackathon - IBMxISEN</title>
+
+    <link href="/static/styles/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="/static/js/countdown.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+            <div class="px-0 d-flex justify-content-center">
+                <h1 class="display-4">Hackathon</h1>
+            </div>
+            <div>
+                <img height="110px" style="margin-top:3px" src="/static/img/IBM.webp" />
+                <img height="50px" src="/static/img/ISEN.png" />
+            </div>
+        </div>
+        <div>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active-tab" href="/">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive-tab" href="/principle.html">Épreuves</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inactive-tab" href="/leaderboard.html">Classement</a>
+                </li>
+            </ul>
+        </div>
+        
+<section>
+    <div height="200px" class="row">
+        <div class="col-md-12">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Compte à rebours</h3>
+                    <div class="mb-1 text-muted">
+                        <p class="display-3" id="countdown">-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+
+
+    <main role="main" class="container">
+        
+    <div class="row scrollable">
+        <div class="col-md-7 blog-main">
+
+            <div class="blog-post">
+                <h2 class="blog-post-title">Bienvenue !</h2>
+                <p class="justified indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue,
+                    euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus
+                    volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. </p>
+                <p class="justified indented">Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales
+                    hendrerit. Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae
+                    ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris
+                    convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique
+                    ligula justo vitae magna. Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero
+                    eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies
+                    lacus lorem varius purus. Curabitur eu amet.</p>
+                <hr>
+
+                <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+            </div>
+
+        </div>
+        <!-- /.blog-main -->
+
+        <aside class="col-md-5 blog-sidebar">
+
+
+            <div class="p-4">
+                <h4>Leaderboard</h4>
+                <em>Ici par ordre d'arrivée ceux qui ont donné le mot de passe au chatbot</em>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nom d'équipe</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Heure</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Les Abheilles</td>
+                            <td>date</td>
+                            <td>heure</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Les Pastèques</td>
+                            <td>date</td>
+                            <td>heure</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>TITI</td>
+                            <td>date</td>
+                            <td>heure</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="p-4 mb-3 bg-light rounded">
+                <h4 class="font-italic">A propos</h4>
+                <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            </div>
+
+        </aside>
+        <!-- /.blog-sidebar -->
+
+    </div>
+
+    <!-- /.row -->
+    
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+@media (min-width: 768px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 4rem;
+}
+
+.blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+}
+
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+}
+
+.active-tab {
+    background-color: #343a40;
+    color: white;
+}
+
+.inactive-tab {
+    background-color: white;
+    color: #343a40;
+}
+
+a.active-tab:hover {
+    color: white;
+}
+
+a.inactive-tab:hover {
+    color: #343a40;
+}
+
+.nav-pills {
+    margin-bottom: 1% !important;
+}
+
+.markdown {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.markdown div p code {
+    background-color: #ebebeb;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.markdown div table {
+    width: 60%;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.markdown div table thead tr {
+    background-color: #ebebeb;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.markdown div table tbody tr td {
+    border-bottom: 1px solid lightgray;
+    padding-left: 15px;
+    width: 45%;
+}
+
+.markdown div table tbody tr td:nth-child(2) {
+    text-align: center;
+    width: 15%;
+}
+
+.justified {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.indented {
+    text-indent: 5em;
+}
